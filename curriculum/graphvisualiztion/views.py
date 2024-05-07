@@ -240,7 +240,7 @@ def createGraph(courseTitle,csv_data,id):
         #parentID=id 
         #for i in range(6,14):
         #    if  row[i] =="-" or row[i] =="": continue
-        #    nodes.append(createNode(id,row[i],"","","",10,colors[i-6]))
+        #    nodes.append(createNode(id,row[i],"","","",10,colors[i-6])) 
         #    if parentID==id:
         #        edges.append(createEdge(CourseID,id))
         #    else:

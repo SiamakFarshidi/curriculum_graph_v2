@@ -289,24 +289,11 @@
                                     <span class="pcoded-mtext" data-i18n="nav.form-components.main">Graph based</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
-                                <ul class="pcoded-submenu">
-                                    {%for course in courseTitles %}
-                                    <li class=" " >
-                                        <a href="#" onclick="selectGraph('{{ course }}')">
-                                            <span class="pcoded-micon"><i class="ti-angle-right"></i></span>
-                                            <span class="pcoded-mtext" data-i18n="nav.basic-components.alert">
-                                                {{ course }}
-                                            </span>
-                                            <span class="pcoded-mcaret"></span>
-                                        </a>
-                                    </li>
-                                    {% endfor %}
-                                </ul>
                             </li>
                         </ul>
 
                         
-                        <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">New function</div>
+                        <div class="pcoded-navigatio-lavel" data-i18n="nav.category.forms">Visualization</div>
                         <ul class="pcoded-item pcoded-left-item">
                             <li class="">
                                 <a href="{% url 'singlecourse' %}">
